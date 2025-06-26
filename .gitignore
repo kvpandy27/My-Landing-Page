@@ -1,0 +1,32 @@
+# Node.js / Frontend
+node_modules/
+.env.local
+.env.*.local
+.next/
+out/ # if you export static
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnp
+.pnp.js
+.parcel-cache
+.cache/
+dist/
+build/
+public/build/ # if your build outputs here
+.DS_Store # macOS specific file
+
+# Go / Backend
+bin/
+pkg/
+*.exe
+*.dll
+*.so
+*.dylib
+*.o
+*.test
+vendor/ # If you're not using modules properly, or explicitly vendoring
+
+# General
+*.log
+.vscode/ # Optional: If you don't want to share editor settings
